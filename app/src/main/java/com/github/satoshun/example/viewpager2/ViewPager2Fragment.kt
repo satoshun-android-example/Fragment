@@ -40,6 +40,11 @@ class ViewPager2ChildFragment : Fragment() {
     return TextView(requireContext()).apply { text = "$userId" }
   }
 
+  override fun onStart() {
+    super.onStart()
+    println("onStart $userId")
+  }
+
   override fun onResume() {
     super.onResume()
     println("onResume $userId")
@@ -48,5 +53,10 @@ class ViewPager2ChildFragment : Fragment() {
   override fun onPause() {
     super.onPause()
     println("onPause $userId")
+  }
+
+  override fun onStop() {
+    super.onStop()
+    println("onStop $userId")
   }
 }
