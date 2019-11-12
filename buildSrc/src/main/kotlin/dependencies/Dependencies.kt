@@ -7,7 +7,7 @@ const val TARGET_SDK = 29
 private const val VKOTLIN = "1.3.50"
 private const val VNAVIGATION = "2.2.0-rc01"
 
-const val ANDROID_PLUGIN = "com.android.tools.build:gradle:3.5.2"
+const val ANDROID_PLUGIN = "com.android.tools.build:gradle:3.6.0-beta03"
 const val KOTLIN_PLUGIN = "org.jetbrains.kotlin:kotlin-gradle-plugin:$VKOTLIN"
 const val SAFEARGS_PLUGIN =
   "androidx.navigation:navigation-safe-args-gradle-plugin:$VNAVIGATION"
@@ -19,8 +19,8 @@ const val COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$VCOUROUTIN
 const val UI_COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$VCOUROUTINE"
 
 const val KTX = "androidx.core:core-ktx:1.1.0"
-const val ACTIVITYX = "androidx.activity:activity-ktx:1.0.0"
-const val FRAGMENTX = "androidx.fragment:fragment-ktx:1.1.0"
+const val ACTIVITYX = "androidx.activity:activity-ktx:1.1.0-rc02"
+const val FRAGMENTX = "androidx.fragment:fragment-ktx:1.2.0-rc02"
 
 const val APPCOMPAT = "androidx.appcompat:appcompat:1.1.0"
 const val RECYCLERVIEW = "androidx.recyclerview:recyclerview:1.0.0"

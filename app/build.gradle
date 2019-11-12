@@ -35,7 +35,7 @@ android {
       res.srcDirs += ["src/main/res-en"]
     }
   }
-  dataBinding {
+  viewBinding {
     enabled = true
   }
 }
