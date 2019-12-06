@@ -7,16 +7,9 @@
   tools:ignore="HardcodedText">
 
   <Button
-    android:id="@+id/set_max_lifecycle"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="64dp"
     android:layout_margin="16dp"
-    android:text="setMaxLifecycle" />
-
-  <Button
-    android:id="@+id/dialog_fragment_live_data"
-    android:layout_width="match_parent"
-    android:layout_height="64dp"
-    android:layout_margin="16dp"
-    android:text="DialogFragment LiveData" />
+    android:text="Main" />
 </LinearLayout>

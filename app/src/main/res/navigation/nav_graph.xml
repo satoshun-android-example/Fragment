@@ -12,9 +12,17 @@
     <action
       android:id="@+id/nav_home_to_max_lifecycle"
       app:destination="@id/nav_max_lifecycle" />
+
+    <action
+      android:id="@+id/nav_home_to_fragment_livedata"
+      app:destination="@id/nav_dialog_fragment_livedata" />
   </fragment>
 
   <fragment
     android:id="@+id/nav_max_lifecycle"
     android:name="com.github.satoshun.example.viewpager2.ViewPager2Fragment" />
+
+  <dialog
+    android:id="@+id/nav_dialog_fragment_livedata"
+    android:name="com.github.satoshun.example.main.livedatadialogfragment.LiveDataObserveDialogFragment" />
 </navigation>
